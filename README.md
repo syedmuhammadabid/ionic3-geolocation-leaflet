@@ -26,9 +26,16 @@ Once ionic framework is installed then,
 $ git clone https://github.com/syedmuhammadabid/ionic3-geolocation-leaflet
 $ cd ionic3-geolocation-leaflet
 $ npm install
+```
+Open project folder and then `src/index.html`, in index.html provide Google Places API [key](https://developers.google.com/places/web-service/get-api-key),
+```sh
+ <!-- Google Places API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_API_KEY&libraries=places"></script>
+```
+and now just run,
+```sh
 $ ionic serve
 ```
-
 ### Development
 
 Want to contribute? Great!
